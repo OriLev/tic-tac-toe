@@ -20,8 +20,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Board boardData={boardData} submitPlay={submitPlay} />
+        <h1>{headerString}</h1>
       </header>
+      <main className="gameContainer">
+        <Board boardData={boardData} winningCells={winningCells} submitPlay={submitPlay} />
+      </main>
     </div>
   );
 }

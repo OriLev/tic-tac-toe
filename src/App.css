@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.App-header {
+  font-size: calc(10px + 2vmin);
+  height: 30%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,14 +21,15 @@
   }
 }
 
-.App-header {
+.gameContainer {
+  flex: 1 0 auto;
   background-color: #282c34;
-  min-height: 100vh;
+  height: 70%;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
