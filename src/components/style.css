@@ -1,0 +1,25 @@
+.boardContainer {
+  width: 30vw;
+  height: 30vw;
+  max-width: 210px;
+  max-height: 210px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.cell {
+  flex: 1 0 33%;
+  min-height: 33%;
+  color: black;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.win {
+  color: green;
+}
