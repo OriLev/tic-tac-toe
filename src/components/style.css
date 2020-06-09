@@ -20,6 +20,11 @@
   align-items: center;
 }
 
-.win {
+.active {
+  cursor: pointer;
+}
+
+.winner {
   color: green;
+  background-color: yellow;
 }
